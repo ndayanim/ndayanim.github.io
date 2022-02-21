@@ -2,7 +2,7 @@ h1{
     color: #6C33FF;
     text-transform: uppercase;
     font-family:'Open Sans', sans-serif;
-    font-weight:lighter
+    font-weight:lighter;
 
 }
 body{
@@ -12,15 +12,18 @@ body{
    
 }
 h2{
-    color: #6C33FF 
+    color: #6C33FF; 
 }
 ol{
     font-family:'Playfair Display', serif;
-    color: #3358FF
+    color: #3358FF;
     
 }
 
+img{
+width: 25%;
 
+}
 
 
     
@@ -28,6 +31,6 @@ ol{
 
 
 
-}
+
 
 
