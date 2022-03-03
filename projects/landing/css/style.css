@@ -1,0 +1,48 @@
+h1{
+color:#f5f5f6;
+font-family:'Barlow', sans-serif;
+}
+
+h2{
+    color:#f5f5f6;
+    font-family: 'Barlow', sans-serif;
+    font-size: medium;
+}
+    
+.nav-link {
+    color:#f5f5f5;
+    padding:10px;
+}
+.nav-link:hover {
+    color:gray;
+    padding:10px;
+}
+
+nav{
+    text-align:center;  
+    padding:10px;
+    margin: 20px;
+}
+
+.images{
+text-align: center;
+}
+body {
+background: #11111b;
+color:#f5f5f6;
+font-family: 'Maven Pro', sans-serif;
+padding:10px;
+}
+
+footer {
+    color:#f5f5f6;
+    font-family: 'Barlow', sans-serif;
+    font-size: medium;
+    margin:0px;
+    text-align:center; 
+    line-height: 1;
+}
+/*
+font-family: 'Barlow', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+*/
