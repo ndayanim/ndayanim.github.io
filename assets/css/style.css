@@ -1,7 +1,31 @@
 h1{
     color:#FB9B68;
     font-family: 'Open Sans', sans-serif;
-    font-weight:400
+    font-weight:400;
+    font-size: 30px;
+}
+
+nav{
+    text-align:right;
+    padding: 10px;
+
+}
+
+.nav-link:hover {
+    color:gray;
+    padding:10px;
+}
+
+h1{
+    font-size: larger;  
+    padding:10px;
+    margin: 20px;
+}
+
+.nav-link {
+    color:#FB9B68;
+    padding: 15px;  
+   
 }
 
 
