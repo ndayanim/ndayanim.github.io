@@ -48,15 +48,11 @@ footer {
         color:red;
 
     }
+nav,footer{
+    margin:20px;
+}
 }
 
-@media (max-width:450px){
- h1{
-  color: red;   
- } 
- h2{
-     color:blue;
- }}
 /*
 max-width is good if you want to specifically design for devices under 450px (like phones, etc)
  min-width is good if you're designing for desktop
