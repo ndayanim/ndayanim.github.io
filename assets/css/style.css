@@ -1,8 +1,9 @@
 h1{
-    color:#FB9B68;
+    color:#efa686;
     font-family: 'Open Sans', sans-serif;
     font-weight:400;
     font-size: 30px;
+
 }
 
 nav{
@@ -23,9 +24,12 @@ h1{
 }
 
 .nav-link {
-    color:#FB9B68;
+    color:#efa686;
     padding: 15px;  
    
+}
+body{
+    background:#faf2ea;
 }
 
 
