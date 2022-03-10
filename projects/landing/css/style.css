@@ -43,13 +43,14 @@ footer {
     line-height: 1;
 }
 
-@media (min-width:450px){
+@media (max-width:450px){
     h1{
         color:red;
-
+        font-size: 1.7em;
     }
 nav,footer{
     margin:20px;
+    color:green;
 }
 }
 
