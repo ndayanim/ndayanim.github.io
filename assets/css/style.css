@@ -77,13 +77,23 @@ font-style:italic;
 font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+h3 {
+    color:#f08b60;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    padding: 80px;
+    font-style: italic;
+    font-size: 2.1em;
+
+}
 
 /*
 font-family: 'Barlow', sans-serif;
+font-family: 'EB Garamond', serif;
 font-family: 'Gideon Roman', cursive;
+font-family: 'Lora', serif;
 font-family: 'Maven Pro', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Playfair Display', serif;
-font-family: 'Lora', serif;
 */
 
