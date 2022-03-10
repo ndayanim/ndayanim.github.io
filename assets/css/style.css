@@ -1,8 +1,9 @@
 h1{
-    color:#efa686;
+    color:black;
     font-family: 'Lora', serif;
     font-weight:400;
     font-size: 30px;
+   
 
 }
 
@@ -13,7 +14,7 @@ nav{
 }
 
 .nav-link:hover {
-    color:gray;
+    color:#efa686;
     padding:10px;
 }
 
@@ -32,7 +33,49 @@ body{
     background:#faf2ea;
     font-family: 'Lora', serif;
 }
+/*HOME IMG */
+.frame{
+    height:100%;
+}
+.frame img{
+    height:100vh;
+}
 
+/* MAIN */
+.home {
+    background-color: #fb9b68;
+    height: 100vh;
+
+}
+h2{
+    font-size: 1.3em;
+    margin: 0 0 20px 0;
+    color:bisque;
+    font-family: 'Lora', serif;
+
+}
+
+h2,.navbar{
+font-family: 'Barlow', sans-serif;
+text-transform: uppercase;
+}
+
+.links a{
+    display:block;
+    color:#faf2ea;
+    margin: 20px;
+    font-size:1.5em;
+    text-decoration:none;
+}
+.links a:hover{
+    color:bisque;
+  
+}
+
+.main {
+font-style:italic;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
 
 
 /*
