@@ -1,44 +1,41 @@
-h1{
-    color:black;
+h1 {
+    color: black;
     font-family: 'Lora', serif;
-    font-weight:400;
-    font-size: 30px;
-   
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
 
 }
 
-nav{
-    text-align:right;
+nav {
+    text-align: right;
     padding: 10px;
 
 }
 
 .nav-link:hover {
-    color:#efa686;
-    padding:10px;
-}
-
-h1{
-    font-size: larger;  
-    padding:10px;
-    margin: 20px;
+    color: #efa686;
+    padding: 10px;
 }
 
 .nav-link {
-    color:#efa686;
-    padding: 15px;  
-   
+    color: #efa686;
+    padding: 15px;
+
 }
-body{
-    background:#faf2ea;
+
+body {
+    background: #faf2ea;
     font-family: 'Lora', serif;
 }
+
 /*HOME IMG */
-.frame{
-    height:100%;
+.frame {
+    height: 100%;
 }
-.frame img{
-    height:100vh;
+
+.frame img {
+    height: 100vh;
 }
 
 /* MAIN */
@@ -47,38 +44,40 @@ body{
     height: 100vh;
 
 }
-h2{
+
+h2 {
     font-size: 1.3em;
     margin: 0 0 20px 0;
-    color:bisque;
+    color: bisque;
     font-family: 'Lora', serif;
 
 }
 
-h2,.navbar{
-font-family: 'Barlow', sans-serif;
-text-transform: uppercase;
+h2, .navbar {
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
 }
 
-.links a{
-    display:block;
-    color:#faf2ea;
+.links a {
+    display: block;
+    color: #faf2ea;
     margin: 20px;
-    font-size:1.5em;
-    text-decoration:none;
+    font-size: 1.5em;
+    text-decoration: none;
 }
-.links a:hover{
-    color:bisque;
-  
+
+.links a:hover {
+    color: bisque;
+
 }
 
 .main {
-font-style:italic;
-font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h3 {
-    color:#f08b60;
+    color: #f08b60;
     font-family: 'EB Garamond', serif;
     text-align: center;
     padding: 80px;
@@ -86,10 +85,13 @@ h3 {
     font-size: 2.1em;
 
 }
+
 p {
-    margin-left: 340px;
-    margin-right:340px;
-    text-align:center;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+
+
 }
 
 /*
@@ -101,4 +103,3 @@ font-family: 'Maven Pro', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Playfair Display', serif;
 */
-
