@@ -4,6 +4,7 @@ h1 {
     font-weight: 400;
     font-size: 18px;
     padding-top: 10px;
+    text-decoration: underline;
 
 }
 
@@ -93,7 +94,12 @@ p {
 
 }
 
+.column {
+    float: left;
+    width:50%
 
+
+}
 
 /*
 font-family: 'Barlow', sans-serif;
