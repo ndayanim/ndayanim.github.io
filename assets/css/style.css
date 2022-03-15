@@ -103,11 +103,14 @@ p {
 
 .card {
 
-    margin-left: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 80px;
+    margin-bottom:80px;
     background-color: #efa686;
     border-radius: 25px;
     text-align: center;
+
 
 }
 
