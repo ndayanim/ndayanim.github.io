@@ -96,10 +96,32 @@ p {
 
 .column {
     float: left;
-    width:50%
+    width: 50%;
 
 
 }
+
+.card {
+
+    margin-left: 40px;
+    margin-top: 80px;
+    background-color: #efa686;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+h5 {
+    color: rgb(238, 234, 227);
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+
+
+
 
 /*
 font-family: 'Barlow', sans-serif;
