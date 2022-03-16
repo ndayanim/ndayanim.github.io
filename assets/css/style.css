@@ -102,18 +102,18 @@ p {
 }
 
 .card {
-
-    /* margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 80px;
-    margin-bottom:80px; */
     background-color: #efa686;
     border-radius: 25px;
     text-align: center;
+    width: 35%;
+
+
 }
 
+
 .sub .card {
-    margin: 10px 60px;
+    margin: 2% 33.33%;
+    justify-content: center;
 
 }
 
@@ -124,6 +124,10 @@ h5 {
     font-size: 30px;
     padding-top: 10px;
 
+}
+
+ul {
+    color: rgb(238, 234, 227);
 }
 
 
