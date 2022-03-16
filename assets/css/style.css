@@ -126,10 +126,13 @@ h5 {
 
 }
 
-ul {
-    color: rgb(238, 234, 227);
-}
+@media (max-width:450px) {
 
+
+    .frame img {
+        height: 70vh;
+    }
+}
 
 
 
