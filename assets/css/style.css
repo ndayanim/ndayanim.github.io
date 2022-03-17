@@ -47,7 +47,7 @@ body {
 }
 
 h2 {
-    font-size: 1.3em;
+    font-size: 30px;
     margin: 0 0 20px 0;
     color: bisque;
     font-family: 'Lora', serif;
@@ -83,7 +83,7 @@ h3 {
     text-align: center;
     padding: 80px;
     font-style: italic;
-    font-size: 2.1em;
+    font-size: 40px;
 
 }
 
@@ -126,9 +126,24 @@ h5 {
 
 }
 
+.eggs {
+   color:#efa686
+
+}
+
+
+.socials{
+    text-align: center;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #f08b60;
+    font-size: 17px;
+    padding-left: 150px;
+}
+
 @media (max-width:450px) {
-
-
     .frame img {
         height: 70vh;
     }
