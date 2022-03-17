@@ -111,6 +111,7 @@ p {
 }
 
 
+
 .sub .card {
     margin: 2% 33.33%;
     justify-content: center;
@@ -127,13 +128,15 @@ h5 {
 }
 
 .eggs {
-   color:#efa686
+    color: #efa686;
 
 }
 
 
-.socials{
+.socials {
     text-align: center;
+    color: #e68f69;
+
 }
 
 h4 {
@@ -146,6 +149,13 @@ h4 {
 @media (max-width:450px) {
     .frame img {
         height: 70vh;
+    }
+
+
+    .sub .card {
+        width: 75%;
+        float: right;
+
     }
 }
 
