@@ -5,31 +5,16 @@ body {
     background-color: #080707;
 }
 
-h1 {
-    font-family: 'manrope', sans-serif;
-    font-size: 3em;
-    font-weight: 800;
-    padding: 1% 2%;
-    
-
-}
 
 video {
     height: 100vh;
     width: 100%;
 }
 
-.overline{
-    background-color: #df4601; 
-    padding: 1% 2%;
-    display: inline;
-    font-family: 'Barlow Condensed', sans-serif;
-    text-transform: uppercase;
 
-}
-.name{
+.name {
     text-transform: uppercase;
-    color:#df4601;
+    color: #df4601;
 }
 
 .row {
@@ -37,11 +22,89 @@ video {
     display: flex;
 }
 
+
+
+iframe {
+    background-color: #ffffff;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+section {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.cite {
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+blockquote {
+    font-family: 'Manrope', sans-serif;
+    padding: 2%;
+    background-color: #df4601;
+    text-align: center;
+
+}
+
+.quote {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+h2 {
+    background-color: #f5f5f5;
+    color: #080707;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1.3px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.chart {
+    background: #ffffff;
+    padding: 30% 30%;
+    width: 100%;
+    height: 100vh;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'manrope', sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    padding: 1% 2%;
+
+}
+
+.overline {
+    background-color: #df4601;
+    padding: 1% 2%;
+    display: inline;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
 .byline {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     padding: 1% 2%;
-  
+
 }
 
 .links a {
@@ -54,53 +117,16 @@ video {
     color: #df4601;
 
 }
-iframe {
-background-color: #ffffff;
-}
-img{
-    width:100%;
-    height:100vh;
+
+#foot {
+    color: #ffffff;
 }
 
-
-
-section{
-    width:65%;
-    margin:0 auto;
-}
-.cite{
-    font-style: italic;
-}
-h3{
-    font-size:1.1em;
-}
-blockquote{
-    font-family: 'Manrope', sans-serif;
-    padding:2%;
-    background-color:#df4601;
-    text-align:center;
-    
-}
-.quote{
-    font-size: 1.2em;
-    font-weight:500;
-}
-
-h2{
-    background-color: #f5f5f5;
-    color:#080707;
-    text-align:center;
-    font-size:1.5em;
-    letter-spacing: 1.3px;
-    margin-top:5%;
-    margin-bottom: 5%;
-    width:100%;
-}
 @media (min-width: 1000px) {
     header {
         padding-top: 15%;
         padding-right: 2%;
-        padding-left:5%;
+        padding-left: 5%;
     }
 }
 
@@ -131,17 +157,28 @@ h2{
 
 }
 
-/*
 
-USE THIS LATER DON'T FORGET FINAL MEDIA QUERY
-@media (max-width:450px)
-{
-    body{
+@media (max-width:450px) {
+    body {
         font-size: 14px;
-    
+
     }
+
+    section, footer {
+        width: 95%;
+
+    }
+
+    header {
+        margin-top: 50%;
+    }
+
+
+
+
+
 }
-*/
+
 
 /*
 max-width is good if you want to specifically design for devices under 450px (like phones, etc)
