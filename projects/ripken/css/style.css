@@ -62,18 +62,11 @@ img{
     height:100vh;
 }
 
-h2{
-    background-color: #f5f5f5;
-    color:#080707;
-    text-align:center;
-    font-size:1.5em;
-    letter-spacing: 1.3px;
-    margin:5% 0;
-    
-}
+
+
 section{
     width:65%;
-   margin:0 auto;
+    margin:0 auto;
 }
 .cite{
     font-style: italic;
@@ -84,6 +77,8 @@ h3{
 blockquote{
     font-family: 'Manrope', sans-serif;
     padding:2%;
+    background-color:#df4601;
+    text-align:center;
     
 }
 .quote{
@@ -91,7 +86,16 @@ blockquote{
     font-weight:500;
 }
 
-
+h2{
+    background-color: #f5f5f5;
+    color:#080707;
+    text-align:center;
+    font-size:1.5em;
+    letter-spacing: 1.3px;
+    margin-top:5%;
+    margin-bottom: 5%;
+    width:100%;
+}
 @media (min-width: 1000px) {
     header {
         padding-top: 15%;
