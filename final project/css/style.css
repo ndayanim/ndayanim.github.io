@@ -24,12 +24,12 @@
 /* Centered text */
 .centered {
     position: absolute;
-    text-align: left;
+    text-align: right;
     transform: translate(-50%, -50%);
     font-size: 1.8em;
     white-space: nowrap;
     top: 40%;
-    left: 35%;
+    left: 65%;
     text-decoration: underline;
     font-weight: 700;
 
@@ -39,8 +39,8 @@
 .imageDiv {
     background-image: url("../img/background3.jpg");
     height: 400px;
-    max-width:700px;
-    min-width:200px;
+    max-width: 700px;
+    min-width: 200px;
     align-self: auto;
 
 }
@@ -49,40 +49,41 @@
     position: absolute;
     text-align: left;
     top: 50%;
-    left: 25%;
+    left: 65%;
     font-size: 1.2em;
     font-style: italic;
 
 }
 
-img{
-    display:block;
-    margin:auto;
-    padding-left:10%;
-    padding-right:10%;
+img {
+    display: block;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
 figure {
     text-align: center;
 }
 
 .byline {
     position: absolute;
-    top: 65%;
-    left: 25%;
+    top: 75%;
+    left: 65%;
     font-size: 1em;
 
 }
 
 body {
-    background: black;
+    background: #222222;
     color: white;
     font-family: 'Playfair Display', serif;
 }
 
 .story-intro {
     padding-top: 10%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 18%;
+    padding-right: 18%;
 }
 
 
