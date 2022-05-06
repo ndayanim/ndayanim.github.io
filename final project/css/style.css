@@ -30,11 +30,16 @@
     white-space: nowrap;
     top: 40%;
     left: 65%;
-    text-decoration: underline;
     font-weight: 700;
 
 
 }
+
+.interactivegraph {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 
 .imageDiv {
     background-image: url("../img/background3.jpg");
@@ -64,6 +69,7 @@ img {
 
 figure {
     text-align: center;
+    font-style: italic;
 }
 
 .byline {
@@ -75,8 +81,8 @@ figure {
 }
 
 body {
-    background: #222222;
-    color: white;
+    background: white;
+    color: black;
     font-family: 'Playfair Display', serif;
 }
 
@@ -84,6 +90,16 @@ body {
     padding-top: 10%;
     padding-left: 18%;
     padding-right: 18%;
+}
+
+.images {
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+h1 {
+    padding-top: 5%;
 }
 
 
