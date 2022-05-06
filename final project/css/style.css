@@ -1,0 +1,82 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: rgba(245, 240, 240, 0.904);
+}
+
+
+/* Bottom left text 
+.bottom-left {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    text-align:left;
+}
+*/
+/* #headline{ 
+    font-size: 1.8em;
+    text-align:left;
+    white-space:nowrap;
+    top: 40%;
+    left: 30%;
+}*/
+/* Centered text */
+.centered {
+    position: absolute;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    font-size: 1.8em;
+    white-space: nowrap;
+    top: 40%;
+    left: 35%;
+    text-decoration: underline;
+    font-weight: 700;
+
+
+}
+
+.imageDiv {
+    background-image: url("../img/background3.jpg");
+    height: 400px;
+    max-width:700px;
+    min-width:200px;
+    align-self: auto;
+
+}
+
+.deck {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 25%;
+    font-size: 1.2em;
+    font-style: italic;
+
+}
+
+.byline {
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    font-size: 1em;
+
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.story-intro {
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+/* font-family: 'Archivo', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Playfair Display', serif; */
