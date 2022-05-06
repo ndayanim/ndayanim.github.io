@@ -55,6 +55,16 @@
 
 }
 
+img{
+    display:block;
+    margin:auto;
+    padding-left:10%;
+    padding-right:10%;
+}
+figure {
+    text-align: center;
+}
+
 .byline {
     position: absolute;
     top: 65%;
