@@ -22,6 +22,7 @@
     left: 30%;
 }*/
 /* Centered text */
+
 .centered {
     position: absolute;
     text-align: right;
@@ -31,9 +32,9 @@
     top: 40%;
     left: 65%;
     font-weight: 700;
-
-
 }
+
+
 
 .interactivegraph {
     padding-left: 10%;
@@ -62,9 +63,20 @@
 
 img {
     display: block;
-    margin: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left:0%;
+    margin-right:10%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    border: 3px solid #666;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+
+}
+.eggs{
+    font-size:larger;
+    text-align: center;
 }
 
 figure {
@@ -102,6 +114,57 @@ h1 {
     padding-top: 5%;
 }
 
+.links a {
+    color: gray;
+}
+#bannerimage{
+    max-height:30%;
+    
+}
+
+
+/* me trying to figure out how to do the hover box thing but having no idea what i'm looking at
+.container-2 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container-2:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container-2:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+*/
 
 /* font-family: 'Archivo', sans-serif;
 font-family: 'Barlow Condensed', sans-serif;
