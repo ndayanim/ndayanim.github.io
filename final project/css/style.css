@@ -1,72 +1,12 @@
-/* Container holding the image and the text */
-/* .container {
-    position: relative;
-    text-align: center;
-    color: rgba(245, 240, 240, 0.904);
-} */
-
-
-/* Bottom left text 
-.bottom-left {
-    position: absolute;
-    top: 60%;
-    left: 30%;
-    text-align:left;
-}
-*/
-/* #headline{ 
-    font-size: 1.8em;
-    text-align:left;
-    white-space:nowrap;
-    top: 40%;
-    left: 30%;
-}*/
-/* Centered text */
-
-/* .centered {
-    position: absolute;
-    text-align: right;
-    transform: translate(-50%, -50%);
-    font-size: 1.8em;
-    white-space: nowrap;
-    top: 40%;
-    left: 65%;
-    font-weight: 700;
-} */
-
-
-
-
-
-/* .imageDiv {
-    background-image: url("../img/background3.jpg");
-    height: 400px;
-    max-width: 700px;
-    min-width: 200px;
-    align-self: auto; }*/
-
-
-/* 
-.deck {
-    position: absolute;
-    text-align: left;
-    top: 50%;
-    left: 65%;
-    font-size: 1.2em;
-    font-style: italic;
-
-} */
-
 .interactivegraph {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 img {
     display: block;
-    margin-left: 0%;
-    margin-right: 10%;
-  
+
+
     border: 3px solid #666;
     height: auto;
     transition: .5s ease;
@@ -74,6 +14,7 @@ img {
 
 
 }
+
 /* 
 .eggs {
     font-size: larger;
@@ -83,7 +24,7 @@ img {
 figure {
     text-align: center;
     font-style: italic;
-    font-size:small;
+    font-size: small;
 }
 
 
@@ -96,8 +37,8 @@ body {
 
 .story-intro {
     padding-top: 10%;
-   margin-left: 15%;
-margin-right: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
@@ -127,7 +68,7 @@ h1 {
     text-align: center;
     top: 55%;
     left: 20%;
-    right:20%;
+    right: 20%;
     transform: translateY(-50%);
     color: #000030;
 }
@@ -152,7 +93,7 @@ body {
 @media (max-width:775px) {
     .text-overlay {
         left: 10%;
-        right:10%;
+        right: 10%;
         top: 45%;
 
     }
@@ -195,10 +136,11 @@ body {
     .mobile img {
         height: 100vh;
     }
-    img{
-        width:90%;
-     height: auto;
-}
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 
     body {
         overflow-x: hidden;
@@ -215,6 +157,7 @@ body {
         height: 100%;
         width: 100%
     }
+
     body {
         overflow-x: hidden;
     }
@@ -225,24 +168,26 @@ body {
     .text-overlay {
         font-size: smaller;
     }
-      body {
+
+    body {
         overflow-x: hidden;
     }
+
 }
 
 .links .col-sm-4 {
-    padding: 0 1% 0 0;
+    padding: 1% 1% 1% 1%;
 }
 
 .img-block {
     position: relative;
     width: 100%;
-    margin-right: 5%;
-    margin-left: 5%;
     margin-top: 5%;
 
 
 }
+
+
 
 
 .image-link {
@@ -287,13 +232,11 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-/* tried to target the margin on the right side of the anchor links and couldn't figure out how
+main {
+    text-align: center;
+}
 
-.col-md-4{
-    margin-left:5%;
-    margin-right:5%;
 
-} */
 
 
 
