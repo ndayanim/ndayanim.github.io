@@ -66,8 +66,7 @@ img {
     display: block;
     margin-left: 0%;
     margin-right: 10%;
-    /* padding-left: 10%;
-    padding-right: 10%; */
+  
     border: 3px solid #666;
     height: auto;
     transition: .5s ease;
@@ -75,15 +74,16 @@ img {
 
 
 }
-
+/* 
 .eggs {
     font-size: larger;
     text-align: center;
-}
+} */
 
 figure {
     text-align: center;
     font-style: italic;
+    font-size:small;
 }
 
 
@@ -96,15 +96,10 @@ body {
 
 .story-intro {
     padding-top: 10%;
-    padding-left: 18%;
-    padding-right: 18%;
+   margin-left: 15%;
+margin-right: 15%;
 }
 
-.images {
-    text-align: center;
-    padding-left: 8%;
-    padding-right: 8%;
-}
 
 h1 {
     padding-top: 5%;
@@ -132,6 +127,7 @@ h1 {
     text-align: center;
     top: 55%;
     left: 20%;
+    right:20%;
     transform: translateY(-50%);
     color: #000030;
 }
@@ -151,9 +147,12 @@ body {
 }
 
 
+
+
 @media (max-width:775px) {
     .text-overlay {
         left: 10%;
+        right:10%;
         top: 45%;
 
     }
@@ -175,16 +174,11 @@ body {
         font-size: .8em;
     }
 
-    img {
-        height: auto;
-        width: auto;
-    }
+
 
     body {
         overflow-x: hidden;
     }
-
-
 
 }
 
@@ -201,6 +195,10 @@ body {
     .mobile img {
         height: 100vh;
     }
+    img{
+        width:90%;
+     height: auto;
+}
 
     body {
         overflow-x: hidden;
@@ -217,12 +215,18 @@ body {
         height: 100%;
         width: 100%
     }
+    body {
+        overflow-x: hidden;
+    }
 
 }
 
 @media(max-width:900px) {
     .text-overlay {
         font-size: smaller;
+    }
+      body {
+        overflow-x: hidden;
     }
 }
 
@@ -233,12 +237,13 @@ body {
 .img-block {
     position: relative;
     width: 100%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-left: 5%;
     margin-top: 5%;
 
 
 }
+
 
 .image-link {
     display: block;
@@ -282,7 +287,13 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+/* tried to target the margin on the right side of the anchor links and couldn't figure out how
 
+.col-md-4{
+    margin-left:5%;
+    margin-right:5%;
+
+} */
 
 
 
