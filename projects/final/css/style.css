@@ -38,6 +38,7 @@ body {
     background: white;
     color: black;
     font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
 }
 
 .story-intro {
@@ -88,9 +89,7 @@ h2 {
     line-height: 3;
 }
 
-body {
-    overflow-x: hidden;
-}
+
 
 h1 {
     text-align: center;
