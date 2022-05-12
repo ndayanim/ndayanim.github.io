@@ -22,10 +22,15 @@ img {
 } */
 
 figure {
-    text-align: center;
+    
     font-style: italic;
     font-size: small;
+    max-width:50%;
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
 }
+
 
 
 
@@ -37,8 +42,8 @@ body {
 
 .story-intro {
     padding-top: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -85,6 +90,17 @@ h2 {
 
 body {
     overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.baseball {
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 70%;
 }
 
 
@@ -232,8 +248,12 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-main {
-    text-align: center;
+.main {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    
 }
 
 
