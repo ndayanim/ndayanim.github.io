@@ -13,6 +13,10 @@ body {
 
 }
 
+br{
+    width:50%;
+    margin:0 auto;
+}
 .interactivegraph {
     padding: 0 15%;
 
@@ -145,7 +149,7 @@ figure {
     font-size: small;
     max-width: 50%;
     text-align: center;
-    margin: 0 25%;
+    margin: 0 0 5% 25%;
 
 }
 
@@ -170,16 +174,30 @@ figure {
 
 
         h1 {
-            font-size: 1.75em;
+            font-size: 1.5em;
         }
 
         h2 {
-            font-size: .8em;
+            font-size: .7em;
         }
     }
 
 
 
+
+    @media (min-width:675px) {
+        .mobile {
+            display: none;
+        }
+
+        img {
+            height: 100%;
+            width: 100%
+        }
+
+
+
+    }
 
     @media (min-width:450px) {
         .mobile {
@@ -199,6 +217,11 @@ figure {
 
         .desktop {
             display: none;
+        }
+
+        img {
+            height: 100%;
+            width: 100%
         }
 
 
