@@ -1,39 +1,3 @@
-.interactivegraph {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-img {
-    display: block;
-
-
-    border: 3px solid #666;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-
-
-}
-
-/* 
-.eggs {
-    font-size: larger;
-    text-align: center;
-} */
-
-figure {
-
-    font-style: italic;
-    font-size: small;
-    max-width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-
-
-
 body {
     background: white;
     color: black;
@@ -41,19 +5,28 @@ body {
     overflow-x: hidden;
 }
 
-.story-intro {
-    padding-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+.main {
+    text-align: left;
+    margin: 0 20%;
+
+
+
 }
 
+.interactivegraph {
+    padding: 0 15%;
+
+}
 
 h1 {
-    padding-top: 5%;
+    text-align: center;
+    text-decoration: wavy;
+    padding: 5% 0 0 0;
 }
 
-.links a {
-    color: gray;
+.story-intro {
+    padding: 10% 0 0 0;
+    margin: 0 10%;
 }
 
 .outer-container {
@@ -79,6 +52,11 @@ h1 {
     color: #000030;
 }
 
+footer {
+    text-align: center;
+
+    font-size: smaller;
+}
 
 h2 {
     font-size: 1em;
@@ -89,120 +67,20 @@ h2 {
     line-height: 3;
 }
 
-
-
-h1 {
-    text-align: center;
-    text-decoration: wavy;
-}
-
 .baseball {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0 15%;
     max-width: 70%;
 }
 
-
-
-
-@media (max-width:775px) {
-    .text-overlay {
-        left: 10%;
-        right: 10%;
-        top: 45%;
-
-    }
-}
-
-@media (max-width:450px) {
-    .text-overlay h1 {
-        font-size: 1.2em;
-    }
-
-    .mobile .text-overlay {
-        color: #222222;
-        top: 75%;
-        left: 1%;
-        font-size: 1em;
-    }
-
-    .mobile .text-overlay h2 {
-        font-size: .8em;
-    }
-
-
-
-    body {
-        overflow-x: hidden;
-    }
-
-}
-
-
-@media (max-width:450px) {
-    .desktop {
-        display: none;
-    }
-
-    .text-overlay {
-        font-size: smaller;
-    }
-
-    .mobile img {
-        height: 100vh;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-}
-
-@media (min-width:450px) {
-    .mobile {
-        display: none;
-    }
-
-    img {
-        height: 100%;
-        width: 100%
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-}
-
-@media(max-width:900px) {
-    .text-overlay {
-        font-size: smaller;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-}
-
-.links .col-sm-4 {
-    padding: 1% 1% 1% 1%;
-}
-
-.img-block {
-    position: relative;
+img {
+    display: block;
+    border: 3px solid #666;
+    /* height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden; */
     width: 100%;
-    margin-top: 5%;
-
 
 }
-
-
 
 
 .image-link {
@@ -247,24 +125,82 @@ h1 {
     font-family: 'Playfair Display', serif;
 }
 
-.main {
-    text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+.links .col-sm-4 {
+    padding: 1% 1% 1% 1%;
+}
+
+.img-block {
+    position: relative;
+    width: 100%;
+    margin: 5% 0 0 0;
 
 
 }
-footer{
-    text-align:center;
 
-    font-size:smaller;
+
+
+figure {
+
+    font-style: italic;
+    font-size: small;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 25%;
+
+}
+
+.links a {
+    color: gray;
 }
 
 
 
+@media(max-width:900px) {
+    .text-overlay {
+        left: 10%;
+        right: 10%;
+        top: 55%;
 
 
-/* font-family: 'Archivo', sans-serif;
-font-family: 'Barlow Condensed', sans-serif;
-font-family: 'Manrope', sans-serif;
-font-family: 'Playfair Display', serif; */
+    }}
+
+
+
+    @media (max-width:775px) {
+
+
+        h1 {
+            font-size: 1.75em;
+        }
+
+        h2 {
+            font-size: .8em;
+        }
+    }
+
+
+
+
+    @media (min-width:450px) {
+        .mobile {
+            display: none;
+        }
+
+        img {
+            height: 100%;
+            width: 100%
+        }
+
+
+
+    }
+
+    @media(max-width:450px) {
+
+        .desktop {
+            display: none;
+        }
+
+
+    
+}
