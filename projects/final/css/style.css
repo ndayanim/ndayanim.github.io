@@ -2,7 +2,7 @@ body {
     background: white;
     color: black;
     font-family: 'Playfair Display', serif;
-    overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 .main {
@@ -59,7 +59,7 @@ h1 {
 footer {
     text-align: center;
 
-    font-size: smaller;
+    font-size:0.6em;
 }
 
 h2 {
@@ -223,6 +223,8 @@ figure {
             height: 100%;
             width: 100%
         }
+        .text-overlay{top:60%;
+        left:2%;}
 
 
     
